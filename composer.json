@@ -1,0 +1,22 @@
+{
+    "name": "kanonji/php_file_object",
+    "authors": [
+        {
+            "name": "kanonji",
+            "email": "kanonji@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kanonji\\FileObject\\": "src/",
+            "kanonji\\FileObject\\tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
